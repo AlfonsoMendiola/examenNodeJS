@@ -1,4 +1,4 @@
-# React + Vite
+
 
 Instalacion
 base de datos
@@ -6,6 +6,7 @@ base de datos
     los pasos opcionales de instalacion son la ejecucion de los siguentes comendos:
     docker pull mcr.microsoft.com/mssql/server
     docker run --name "SQL-Server_Local" -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Adm.1n1strad0r" -p 1433:1433 -d mcr.microsoft.com/mssql/server
+    cuando ya se tenga el sgbd funcionando, entrar a back/database/construccion.sql y ejecutar el codigo sql para la creacion de la base de datos y la tabla
 Backend
     se requiere una version 20 de node o superior. una vez que se tenga el proyecto clonado, se deben instalar las dependencias con npm install
     su ejecucion es con el comando npm run dev
